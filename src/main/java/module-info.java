@@ -8,7 +8,7 @@ module com.example.java_test {
     requires net.synedra.validatorfx;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
-    requires eu.hansolo.tilesfx;
+    //requires eu.hansolo.tilesfx; // powoduje błąd java: module not found: javafx.swing
 
     opens com.example.java_test to javafx.fxml;
     exports com.example.java_test;
