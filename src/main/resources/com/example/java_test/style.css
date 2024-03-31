@@ -1,13 +1,25 @@
-
-
 .button {
     -fx-background-color:  #555555;
     -fx-background-radius: 20px;
     -fx-background-insets: 0px;
+    -fx-text-fill: #bababa;
 }
-.button:hover{
+.button:hover {
     -fx-background-color: #454545;
 }
-.button:pressed{
-    -fx-background-color: #353535;
+.button:pressed {
+    -fx-background-color: #343434;
+}
+
+#importantList {
+    -fx-background-radius: 10px;
+}
+
+#planList {
+    -fx-background-color: #858585;
+    -fx-background-radius: 10px;
+}
+
+#planList:hover {
+    -fx-background-color: #888888;
 }
